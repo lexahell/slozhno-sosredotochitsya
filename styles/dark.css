@@ -5,16 +5,6 @@
   --text-color: #f1b2ce;
   --accent-text-color: #000028;
   --accent-bg-color: var(--accent-color, #ff0070);
-}
-
-.page.theme_dark::before {
-  background-image: url('../images/cover-image-dark.png');
-}
-
-.page.theme_dark::after {
-  display: block;
-}
-
-.page.theme_dark .header__rec-lamp {
-  display: block;
+  --bg-image: url('../images/cover-image-dark.png');
+  --rec-display: inline;
 }
